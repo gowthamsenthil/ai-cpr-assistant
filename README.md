@@ -2,7 +2,7 @@
 
 Real-time AR-guided CPR assistance powered by Google Gemini AI and MediaPipe. Built for the Google Gemini Hackathon.
 
-## 🚀 Features
+## Features
 
 - **AR Visual Guidance**: Real-time hand placement overlay using MediaPipe Pose detection
 - **AI-Powered Coaching**: Google Gemini AI generates personalized encouragement and session feedback
@@ -13,7 +13,7 @@ Real-time AR-guided CPR assistance powered by Google Gemini AI and MediaPipe. Bu
 - **Mobile-First**: Optimized for smartphone cameras and touch interfaces
 - **PWA Support**: Offline-capable progressive web app
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: React + TypeScript + Vite
 - **Styling**: Tailwind CSS
@@ -22,13 +22,13 @@ Real-time AR-guided CPR assistance powered by Google Gemini AI and MediaPipe. Bu
 - **Audio**: Web Audio API (metronome) + Web Speech API (voice)
 - **Deployment**: Firebase Hosting (planned)
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js 18+ and npm
 - Google Gemini API key ([Get one here](https://makersuite.google.com/app/apikey))
 - Modern browser with camera access (Chrome/Safari recommended)
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 1. **Clone and install dependencies**:
    ```bash
@@ -54,7 +54,7 @@ Real-time AR-guided CPR assistance powered by Google Gemini AI and MediaPipe. Bu
    - Access via `https://` for camera permissions
    - Or use ngrok/similar for HTTPS tunnel
 
-## 📱 Usage
+## Usage
 
 1. Open the app on a mobile device
 2. Grant camera permissions when prompted
@@ -64,7 +64,7 @@ Real-time AR-guided CPR assistance powered by Google Gemini AI and MediaPipe. Bu
 6. Follow visual and audio guidance
 7. Complete session to receive AI-powered feedback
 
-## ⚠️ Important Disclaimer
+## Important Disclaimer
 
 **FOR TRAINING AND DEMONSTRATION PURPOSES ONLY**
 
@@ -73,7 +73,7 @@ In a real emergency:
 2. Then begin CPR if trained
 3. This app is a training aid, not a replacement for professional emergency services
 
-## 🎯 Core Features Implementation
+## Core Features Implementation
 
 ### Feature 1: MediaPipe Pose Detection
 - Real-time body landmark detection
@@ -117,7 +117,7 @@ In a real emergency:
 - Performance statistics grid
 - Technique badge for optimal rate (100-120 BPM)
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -135,19 +135,9 @@ src/
 └── App.tsx                      # Main app router
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ```bash
 npm run build
 # Deploy dist/ folder to Firebase Hosting or similar
 ```
-
-## 📄 License
-
-Built for Google Gemini Hackathon - Educational purposes
-
-## 🙏 Acknowledgments
-
-- Google Gemini AI team
-- MediaPipe team
-- American Heart Association for CPR guidelines
