@@ -90,7 +90,7 @@ In a real emergency:
 - 880 Hz (A5) sine wave beeps
 - No drift over extended sessions
 
-### Feature 4: Gemini AI Integration ⭐
+### Feature 4: Gemini AI Integration
 - **Dynamic Encouragement**: Context-aware phrases every 45 seconds
 - **Session Summary**: Personalized 50-75 word feedback
 - **Real-time Q&A**: Answer CPR questions (stretch goal)
